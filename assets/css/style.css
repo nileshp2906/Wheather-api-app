@@ -209,6 +209,170 @@ h1 {
 /* ==========================================================================
   2. Wheather info start here
 ========================================================================== */
+.wheather-info .wrapper {
+  display: flex;
+  gap: 2%;
+}
+
+.display-title {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+.title-figure {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.title-figure img{
+  object-fit: cover;
+  max-width: 30px;
+  max-height: 30px ;
+  margin: 10px auto 0;
+}
+
+.temprature {
+  display: flex;
+  margin: 30px 0;
+}
+
+.temp-status {
+  display: block;
+  font-size: 15px;
+}
+
+
+.temp-celcius {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.wheather-properties {
+  display: flex;
+  gap: 8%;
+}
+
+.property-list {
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  color: #f1f0f5;
+  background-color: #1a2841;
+  font-weight: 600;
+}
+
+.visibility {
+  background-color: #cbe16a;
+  color: #000;
+}
+
+.humidity {
+  background-color: #fff;
+  color: #000;
+}
+
+.property-list span {
+  display: block;
+}
+
+.display-title figure {
+  flex-basis: 8%;
+  height: 100%;
+}
+
+.main-txt {
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.small-txt {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.wheather-display {
+  background: url("../img/coludy.jpg") no-repeat ;
+  background-size: cover;
+  flex-basis: 50%;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.air-quality-section {
+  background: url("../img/desertjpg.jpg");
+  flex-basis: 50%;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.fresh-air {
+  display: flex;
+  margin: 30px 0;
+}
+
+
+
+.wind-direction {
+  display: block;
+  font-size: 15px;
+}
+
+.aqi-unit {
+  max-height: 30px;
+  height: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: 700;
+  background-color: #cddf76;
+}
+
+
+.air-quality {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
+.air-range {
+  display: flex;
+  justify-content: space-between;
+}
+
+.air-status {
+  background-color: #fff;
+  padding: 10px 25px 25px;
+  border-radius: 10px;
+}
+
+.range {
+  display: block;
+  background-color:#e7e7ef;
+  height: 5px;
+  border-radius: 30px;
+}
+
+.actual-range {
+  display: block;
+  background-color: #ed6c16;
+  height: 5px;
+  width: 45%;
+}
+
+.range-list {
+  padding: 10px 10px 30px;
+  border-radius: 10px;
+}
+
+.standard {
+  clip-path: polygon(0 0, 70% 0%, 100% 0, 100% 67%, 59% 68%, 51% 78%, 43% 68%, 0 67%);
+  background-color: #1a2841;
+  color: #fff;
+}
 
 /* ==========================================================================
   2. Wheather info end here
