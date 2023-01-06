@@ -99,7 +99,7 @@ sub { bottom: -.25em; }
 ul,li {list-style: none;}
 a {text-decoration: none;}
 body {
-  background-color: aliceblue; 
+  /* background-color: aliceblue;  */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -111,12 +111,105 @@ img {
   object-fit: cover;
 }
 
+.wrapper {
+  max-width: 1366px;
+  width: 85%;
+  margin: 0 auto;
+}
+
 /* Global styling End here */
 
 /* ==========================================================================
-  1.to do list styling start here
+  1. header start here
+========================================================================== */
+header {
+  padding: 10px 0;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-notification {
+  display: flex;
+  align-items: center;
+}
+
+.search-location{
+  /* border: 1px solid #000; */
+}
+
+input[type="search"] {
+  outline: none;
+  border: none;
+  background-color: #f1f0f5;
+  padding: 15px;
+  border-radius: 20px;
+  color: #585859;
+}
+
+/* input[type="submit"] {
+  outline: none;
+  border: none;
+  text-indent: 0; 
+  position: relative;
+}  */
+
+/* input[type="submit"]::after {
+  content: "new";
+  font-family: "FontAwesome";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  color: #000;
+  z-index: 5;
+}  */
+
+h1 span {
+  display: block;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.enable-notify {
+  display: block;
+  text-indent: -9999px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.enable-notify::after {
+  height: 100%;
+  width: 100% ;
+  float: left;
+  font-family: "FontAwesome";
+  content: "\f0f3";
+  text-indent: 0;
+  font-size: 25px;
+  color: #585859;
+  background-color: #f1f0f5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ==========================================================================
+  1. header End here
 ========================================================================== */
 
 /* ==========================================================================
-1.to do list styling End here
+  2. Wheather info start here
+========================================================================== */
+
+/* ==========================================================================
+  2. Wheather info end here
 ========================================================================== */
