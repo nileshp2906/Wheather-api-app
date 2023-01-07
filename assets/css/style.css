@@ -233,13 +233,13 @@ h1 {
 }
 
 .temprature {
-  display: flex;
   margin: 30px 0;
 }
 
 .temp-status {
   display: block;
   font-size: 15px;
+  font-weight: 600;
 }
 
 
@@ -285,6 +285,7 @@ h1 {
   display: block;
   font-size: 25px;
   font-weight: 600;
+  text-transform: capitalize;
 }
 
 .small-txt {
@@ -294,7 +295,8 @@ h1 {
 }
 
 .wheather-display {
-  background: url("../img/coludy.jpg") no-repeat ;
+  background-image: url("../img/coludy.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   flex-basis: 50%;
   overflow: hidden;
@@ -302,7 +304,7 @@ h1 {
   border-radius: 20px;
 }
 
-.air-quality-section {
+.air-speed-section {
   background: url("../img/desertjpg.jpg");
   flex-basis: 50%;
   padding: 20px;
@@ -322,17 +324,18 @@ h1 {
   font-size: 15px;
 }
 
-.aqi-unit {
+.speed-unit {
   max-height: 30px;
   height: 100%;
   padding: 5px;
   border-radius: 4px;
   font-weight: 700;
   background-color: #cddf76;
+  margin-left: 15px;
 }
 
 
-.air-quality {
+.air-speed {
   font-size: 35px;
   font-weight: 700;
 }
@@ -360,7 +363,7 @@ h1 {
   display: block;
   background-color: #ed6c16;
   height: 5px;
-  width: 45%;
+  width: 50%;
 }
 
 .range-list {
@@ -368,7 +371,7 @@ h1 {
   border-radius: 10px;
 }
 
-.standard {
+.normal {
   clip-path: polygon(0 0, 70% 0%, 100% 0, 100% 67%, 59% 68%, 51% 78%, 43% 68%, 0 67%);
   background-color: #1a2841;
   color: #fff;

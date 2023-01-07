@@ -54,53 +54,59 @@
       <!-- WEATHER DISPLAY AND AIR QUALITY SECTION  STRAT HERE-->
       <div class="wheather-info">
         <div class="wrapper">
-          <div class="wheather-display">
+          <div class="wheather-display" id="wheather-display">
             <div class="display-title">
               <figure class="title-figure">
                 <img src="./assets/img/sun.png" alt="sun image" width="30" height="30">
               </figure>
-              <span class="main-txt">Wheather<span class="small-txt">What's the wheather</span></span>
+              <div class="city-name">
+                <span class="main-txt">Wheather</span>
+                <span class="small-txt">What's the wheather</span>
+              </div>
             </div>
             <div class="temprature">
               <span class="temp-celcius">22
                 <sup class="degree">0</sup>
                 C
-                <span class="temp-status">Partly Cloudy</span>
               </span>
+              <span class="temp-status">Partly Cloudy</span>
             </div>
             <ul class="wheather-properties">
               <li class="property-list pressure">
                 <span class="prop-title">Pressure</span>
-                <span class="prop-value">800mb</span>
+                <span class="prop-value" id="pressure">800mb</span>
               </li>
               <li class="property-list visibility">
                 <span class="prop-title">Visibility</span>
-                <span class="prop-value">4.3km</span>
+                <span class="prop-value" id="visibility">4.3km</span>
               </li>
               <li class="property-list humidity">
                 <span class="prop-title">Humidity</span>
-                <span class="prop-value">87%</span>
+                <span class="prop-value" id= "humidity">87%</span>
               </li>
             </ul>
           </div>
-          <div class="air-quality-section">
+          <div class="air-speed-section">
             <div class="display-title">
               <figure class="title-figure">
                 <img src="./assets/img/sun.png" alt="" width="30" height="30">
               </figure>
-              <span class="main-txt">Wheather<span class="small-txt">What's the wheather</span></span>
+              <div class="city-name">
+                <span class="main-txt">Wheather</span>
+                <span class="small-txt">What's the wheather</span>
+              </div>
             </div>
             <div class="fresh-air">
-              <span class="air-quality">390
+              <span class="air-speed">390
                 <span class="wind-direction">West wind</span>
               </span>
-              <span  class="aqi-unit">AQI</span>
+              <span  class="speed-unit">Km/hr</span>
             </div>
             <div class="air-status">
               <ul class="air-range">
-                <li class="range-list good">Good</li>
-                <li class="range-list standard">Standard</li>
-                <li class="range-list hazardous">Hazardous</li>
+                <li class="range-list low">Low</li>
+                <li class="range-list normal">Normal</li>
+                <li class="range-list fast">fast</li>
               </ul>
               <span class="range">
                 <span class="actual-range"></span>
